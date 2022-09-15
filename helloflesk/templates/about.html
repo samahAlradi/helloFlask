@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+       
+    </head>
+    <body
+        style="background-color:#87c0c5;">
+        <h1><center><font color="#990000">Bien venu sur notre site_web{{name}}</font><center></h1><br>
+         <h1>Pour créer un compt veuillez vous entrer votre nom et votre mot de passe</h1>
+         <br>
+         <br>
+         <br>
+         <center>
+         <div>
+         <img src = "{{ url_for('static', filename = 'eignsheim.jpg') }}" width="200" height="300">
+         <img src = "{{ url_for('static', filename = 'petite_france.jpg') }}" width="200" height="300">
+         </div>
+         </center>
+         <br>
+         <br>   
+        <label><b>Nom d'utilisateur</b></label>
+        
+        <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+        <label><b>Mot de passe</b></label>
+        <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+        <input type="submit" id='submit' value='LOGIN' >
+        
+    </body>
+</html>
+
+
+
+
+
